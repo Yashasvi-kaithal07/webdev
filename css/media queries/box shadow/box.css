@@ -1,0 +1,19 @@
+.container{
+    height: 200px;
+    width: 200px;
+    background-color: orchid;
+    box-shadow: 10px 10px 25px 10px rgba(126, 109, 190, 0.75);
+    /* box-shadow: inset 10px 10px 10px 10px rgba(142, 109, 193, 0.75);  */
+    /* border-radius: 50%;
+    box-shadow: 0px 0px 20px 15px rgba(126, 109, 190, 0.75); */
+
+/* -container me text overflow se bachane ke liye*/
+overflow: scroll;
+}
+body{
+    background-color: rgb(170, 223, 233);
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}

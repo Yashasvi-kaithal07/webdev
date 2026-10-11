@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex Box</title>
+
+    <style>
+.container{
+    background-color: rgb(232, 121, 144);
+    height: 500px;
+      width: 800px;
+      display: flex;
+      /* flex-direction: column; */
+      /* flex-direction: row-reverse; */
+      justify-content: space-evenly;
+      justify-content: center;
+      align-items: center;
+      /* flex-wrap: wrap;*/    /*for responsivenes */
+}
+.box{ 
+    /*access box karne ke  liye*/
+    height: 50px; 
+    /* width: 50px;  */
+    margin: 5px;
+
+}
+.first{
+    background-color: rgb(44, 180, 135);
+    /* flex-grow: 1; */
+      flex-basis: 200px;
+}
+.second{
+    background-color: rgb(77, 77, 160);
+    /* flex-grow:2; */
+     flex-basis: 300px;
+    /* flex-shrink: 4; */
+    align-self: flex-start;
+}
+.third{
+    background-color: rgb(129, 78, 176);
+}
+.fourth{
+    background-color: rgb(172, 86, 86);
+}
+    </style>
+
+</head>
+
+<body style="background-color: rgb(241, 176, 176);">
+    <div class="container"> <!--parent div-->
+<div class=" first box">first</div>
+<div class="second box">second</div>
+<div class="third box">third</div>
+<div class="fourth box">fourth</div>
+    </div>
+</body>
+</html>

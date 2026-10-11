@@ -1,0 +1,31 @@
+body{
+    background-color: cornsilk;
+}
+h2{
+    background-color: rgb(227, 143, 83) !important; /*over -ride inline*/
+     width: 150px;
+}
+h3{
+    background-color: rgb(218, 176, 98); width: 170px;
+    position: relative; 
+    left: 200px;
+    bottom: 30px;
+    /* top: 40px; */
+}
+h4{
+    background-color: rgb(243, 181, 202);
+    position: fixed;
+    top: 0px;
+}
+h5{
+    background-color: rgb(99, 141, 231);
+    position: sticky;
+         z-index: 10px;
+}
+p{
+    background-color: rgba(230, 64, 116, 0.591);
+    position: absolute;
+    left: 40px;
+    /* top: 70px; */
+    
+}
