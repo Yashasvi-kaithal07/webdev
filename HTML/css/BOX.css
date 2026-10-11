@@ -1,0 +1,23 @@
+h1{
+    background-color: rgba(165, 42, 42,0.5);
+    height: 40px; width: 150px;
+
+     /* border-width: 3px;
+     border-style: double;
+     border-color: rgb(43, 3, 3); */
+     border: 4px double rgb(21, 21, 130);
+     padding: 7px;
+     margin: 100px;
+     /* display: inline; */
+}
+h2{
+  background-color: cadetblue;
+  border: 3px solid rgb(21, 74, 62);
+  padding: 4px;
+  width: 100px;
+  /* display: inline; */
+}
+span{
+    /* background-color: antiquewhite; */
+    padding: 15px;  /*padding ko bas visually dikha raha hai */
+}
