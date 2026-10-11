@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid for 2d layouts</title>
+
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+            color: rgb(66, 66, 106);
+            font-size: 25px;
+        }
+        body{
+            background-color: black;
+        }
+        .container{
+        padding: 10px; /*padding ki wajah se over flow nhi hua  hai*/
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+        gap: 5px; /*gap ki wajah se overflow hai grid me*/
+        background-color: rgb(241, 169, 184);
+        height: 400px;
+        width: 400px;
+        }
+        .first{
+            background-color: rgb(212, 228, 243);
+        }
+        .second{
+            background-color: aquamarine;
+        }
+        .third{
+            background-color: blanchedalmond;
+        }
+        .fourth{
+            background-color: burlywood;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+<div class="box first">first</div>
+<div class="box second">second</div>
+<div class="box third">third</div>
+<div class="box fourth">fourth</div>
+    </div>
+</body>
+</html>
