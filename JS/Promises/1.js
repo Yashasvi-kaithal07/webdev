@@ -32,6 +32,7 @@ fetch("https://api.github.com/users")
 
     return response.json();
 })
+
 .then((data) => {
     // console.log(data); //data access karne ke liye, usko dekhne ke liye
     const parent = document.getElementById('first');
