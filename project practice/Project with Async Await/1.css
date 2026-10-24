@@ -1,0 +1,56 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+body{
+height: 100vh;
+background-color: black;
+color: aliceblue;
+}
+h1{
+    text-align: center;
+    font-size: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+h2{
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#first{
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    margin: auto;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.user{
+    width: 150px;
+    text-align: center;
+    padding: 10px;
+    border: 2px solid wheat;
+    border-radius: 5px;
+    margin: 10px;
+    transition: transform 1s ease;
+}
+.user:hover{
+    transform: scale(1.3);
+}
+img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+a{
+    text-align: none;
+    color: rgb(237, 146, 67);
+}
+
+/*ye practice 2 ke liye use kiya hai*/
+.user p{
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
